@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1 -->
+     <div class="container">
+        <nav>
+            <a href="/" >Home</a>
+            <a onclick="darkMode()">Mode</a>
+        </nav>
+        <h1>TEST 1</h1>
+
+     </div>
+    <!-- SCRPZ -->
+     <script>
+        let body = document.body;
+
+        
+        function darkMode() {
+            console.log('dark mode');
+            body.classList.toggle("dark");
+        }
+     </script>
+
+</body>
+</html>
